@@ -1,0 +1,480 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\FPGA\altera\13.1\modelsim_ase\win32aloem
+valu
+Z1 IGo4XI<g<@azhYTJEKzRmA3
+Z2 VKc:bVz32gc5X2ZbjUde9O3
+Z3 dC:\Users\yangxuanhui\Documents\SJTU\shuzibujian\simulation
+Z4 w1573807487
+Z5 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/alu.v
+Z6 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/alu.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 W9:14kQFjFBeZP;S8_6;a1
+Z10 !s108 1574177655.614000
+Z11 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/alu.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla32
+Z13 I6Ce6WQ?14A_[8WjHki>cB0
+Z14 VE[X;GQmzA7Az5Q3L>h_`N1
+R3
+Z15 w1573825189
+Z16 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/cla32.v
+Z17 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/cla32.v
+L0 1
+R7
+r1
+31
+R8
+Z18 !s100 ^an:gGeVCzMTWjmo?Eo`<1
+Z19 !s108 1574177655.754000
+Z20 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/cla32.v|
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/cla32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclock
+Z22 I5BoBGaD^eR4h[h:maG`d41
+Z23 V3NS36]>0_EPcRlSm3GVVe0
+R3
+Z24 w1574176073
+Z25 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/clock.v
+Z26 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/clock.v
+L0 1
+R7
+r1
+31
+R8
+Z27 !s100 aiM^Y<KeH2J8KL8T3<8MA0
+Z28 !s108 1574177655.880000
+Z29 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/clock.v|
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/clock.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclock_sim
+Z31 !s100 8R]fnnMO4c;ac4N2nR<JU3
+Z32 ITZCTT0XI9czIHS0UcXd[X1
+Z33 Vc9;^TE;Za66@79ehRaW[e2
+R3
+Z34 w1574171859
+Z35 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/clock_sim.v
+Z36 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/clock_sim.v
+L0 3
+R7
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/clock_sim.v|
+R8
+Z38 !s108 1574177658.362000
+Z39 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/clock_sim.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcomputer_sim
+Z40 !s100 LdVOd9OK]PkadYh3Sl=Gl1
+Z41 ITij`hPHW3Q1W;@]K90?723
+Z42 VL;?^hXmg:F39hCKE3JX7D2
+R3
+Z43 w1574177574
+Z44 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/computer_sim.v
+Z45 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/computer_sim.v
+L0 27
+R7
+r1
+31
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/computer_sim.v|
+R8
+!i10b 1
+!s85 0
+Z47 !s108 1574177658.476000
+Z48 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/computer_sim.v|
+!s101 -O0
+vdff32
+Z49 IN=K0T[BPO`ZYEX]Y0eN^U2
+Z50 VUO7_EzIi9>SeN7M;XG9<c0
+R3
+Z51 w1305031718
+Z52 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dff32.v
+Z53 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dff32.v
+L0 1
+R7
+r1
+31
+R8
+Z54 !s100 eXbg0X8PcT@PALKXZbBE@3
+Z55 !s108 1574177656.001000
+Z56 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dff32.v|
+Z57 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dff32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdffe32
+Z58 IOJQ3RNYc7;czng:IiL[D=0
+Z59 V6]Tk:7m18<;Eoi?;I3VNB3
+R3
+Z60 w1252914812
+Z61 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dffe32.v
+Z62 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dffe32.v
+L0 1
+R7
+r1
+31
+R8
+Z63 !s100 1zh@457QCT>kg<72=]`he3
+Z64 !s108 1574177656.134000
+Z65 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dffe32.v|
+Z66 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/dffe32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinport
+Z67 I1nNBnVWE>ZQ63PhnZk8E30
+Z68 Vm2J69eHOaXEAC5VnO`^071
+R3
+Z69 w1574174661
+Z70 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/inport.v
+Z71 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/inport.v
+L0 1
+R7
+r1
+31
+R8
+Z72 !s100 GAzLjf=RYY_KJM?UKb3gA0
+Z73 !s108 1574177656.253000
+Z74 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/inport.v|
+Z75 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/inport.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vio_input_mux
+Z76 IKHbDTehWkPi>25[EAF0NP3
+Z77 VE]W_C0AC;VoBAl[RC@dLB2
+R3
+Z78 w1574066511
+Z79 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_input_reg.v
+Z80 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_input_reg.v
+L0 21
+R7
+r1
+31
+Z81 !s108 1574177656.381000
+Z82 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_input_reg.v|
+Z83 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_input_reg.v|
+R8
+Z84 !s100 [08clc`UTK6[75CNdP1kT0
+!i10b 1
+!s85 0
+!s101 -O0
+vio_input_reg
+Z85 IdF86j7@gDPEL2fk;_N?AJ3
+Z86 Va`W>ea3e2a]BE_LJo_3@V1
+R3
+R78
+R79
+R80
+L0 1
+R7
+r1
+31
+R81
+R82
+R83
+R8
+Z87 !s100 Bf59eYjcOMa92=b@bYEXc1
+!i10b 1
+!s85 0
+!s101 -O0
+vio_output_reg
+Z88 IYSd2ZPV29boQ4n_mVFlH10
+Z89 V?f=h:WaAWKdngnaa?QSJj2
+R3
+Z90 w1574065727
+Z91 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_output_reg.v
+Z92 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_output_reg.v
+L0 1
+R7
+r1
+31
+R8
+Z93 !s100 XEPMdMml:7KPJC]BzjRK[2
+Z94 !s108 1574177656.527000
+Z95 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_output_reg.v|
+Z96 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/io_output_reg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_ram_dq_dram
+Z97 IAF>z>OCJIc8YU66a4CZcz2
+Z98 V;^>UgMFOjF@EZ@A<NMAW`0
+R3
+Z99 w1574169344
+Z100 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_ram_dq_dram.v
+Z101 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_ram_dq_dram.v
+L0 39
+R7
+r1
+31
+R8
+Z102 !s100 Td:IfdMl;QORlN6kz5gT_1
+Z103 !s108 1574177656.657000
+Z104 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_ram_dq_dram.v|
+Z105 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_ram_dq_dram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vlpm_rom_irom
+Z106 I9Nz_lj21c>JQ?kXj9dkFk2
+Z107 V6I?:oUA0HYdli42?U:6:L0
+R3
+Z108 w1574169335
+Z109 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_rom_irom.v
+Z110 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_rom_irom.v
+L0 39
+R7
+r1
+31
+R8
+Z111 !s100 B>nH7azCP`CaZCc7QAU0O3
+Z112 !s108 1574177656.799000
+Z113 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_rom_irom.v|
+Z114 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/lpm_rom_irom.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x32
+Z115 I09S7`lgMzdoJ7<:Na1:PT1
+Z116 V_8o=]o8CzEDeX@^n?a@zP3
+R3
+Z117 w1252908544
+Z118 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x32.v
+Z119 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x32.v
+L0 1
+R7
+r1
+31
+R8
+Z120 !s100 421BbLmUG8=Z2:1V0X;<n3
+Z121 !s108 1574177657.063000
+Z122 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x32.v|
+Z123 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x5
+Z124 ILCMd9RzOPH<PKClSE^J1W0
+Z125 Vah3g>_]Y^Qz2GXD7HR^<<3
+R3
+Z126 w1253170143
+Z127 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x5.v
+Z128 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x5.v
+L0 1
+R7
+r1
+31
+R8
+Z129 !s100 H4Tkz>^?7;LkLdmV3dFSP2
+Z130 !s108 1574177656.938000
+Z131 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x5.v|
+Z132 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux2x5.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4x32
+Z133 I`Sge90UH6U33OOYd>TCGh3
+Z134 VM:hYY`k:C]4^:^k7d8C]M0
+R3
+Z135 w1252998688
+Z136 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux4x32.v
+Z137 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux4x32.v
+L0 1
+R7
+r1
+31
+R8
+Z138 !s100 QfbkM[6iQ^gciF>JD1YGm3
+Z139 !s108 1574177657.198000
+Z140 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux4x32.v|
+Z141 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/mux4x32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+voutport
+Z142 ICFbli:hmK<DfFc1nDQTUi0
+Z143 Velj6j^5f>cjk3QM=hfV[S1
+R3
+Z144 w1574051727
+Z145 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/outport.v
+Z146 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/outport.v
+L0 1
+R7
+r1
+31
+R8
+Z147 !s100 JfA1>Df31T>I]bK81CMg:0
+Z148 !s108 1574177657.335000
+Z149 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/outport.v|
+Z150 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/outport.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregfile
+Z151 I:EX?oae0hDMMhEndE@;7=2
+Z152 VHL?YD<z4Tlb1gm`0^XW@D2
+R3
+Z153 w1573832303
+Z154 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/regfile.v
+Z155 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/regfile.v
+L0 1
+R7
+r1
+31
+R8
+Z156 !s100 3DQ?EfRj3XN`>RG`GW>O_1
+Z157 !s108 1574177657.457000
+Z158 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/regfile.v|
+Z159 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/regfile.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer
+Z160 IWc3PmB>LK6Vje?5;5lA@A0
+Z161 Vn^o[QzRcBmz367OjL8]ke0
+R3
+Z162 w1574169095
+Z163 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_computer.v
+Z164 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_computer.v
+L0 7
+R7
+r1
+31
+R8
+Z165 !s100 @>XkXfLD;hROK6@T3KiTe3
+Z166 !s108 1574177657.595000
+Z167 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_computer.v|
+Z168 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_computer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_computer_sim
+!i10b 1
+Z169 !s100 N?=T5U4;GAlQ@VOd>jCIH3
+Z170 IE>cA5_k^^RCYW]4iR3doT0
+Z171 V^jiC<6F7]doek[nRMoOol1
+R3
+Z172 w1574070126
+Z173 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/sc_computer_sim.v
+Z174 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/sc_computer_sim.v
+L0 26
+R7
+r1
+!s85 0
+31
+!s108 1574177658.617000
+!s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/sc_computer_sim.v|
+Z175 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/simulation/sc_computer_sim.v|
+!s101 -O0
+R8
+vsc_cpu
+Z176 I;WEYUlcn7ez2>5_`X1]903
+Z177 V:mi8;^<LZUMNBc_]kEVbj2
+R3
+Z178 w1573832189
+Z179 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cpu.v
+Z180 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cpu.v
+L0 1
+R7
+r1
+31
+R8
+Z181 !s100 UMClTa`YkTob@hA>I5i_J2
+Z182 !s108 1574177657.723000
+Z183 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cpu.v|
+Z184 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cpu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_cu
+Z185 I]SW8:88YfjanLPzChEMWd0
+Z186 VAlN72Pg@l_c4ao;V0co7c3
+R3
+Z187 w1573825087
+Z188 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cu.v
+Z189 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cu.v
+L0 1
+R7
+r1
+31
+R8
+Z190 !s100 _9[9ET73AZ1NXCHKg[Iib2
+Z191 !s108 1574177657.849000
+Z192 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cu.v|
+Z193 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_cu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_datamem
+Z194 IgS>;aoe_@@]8=Gm^GmHA43
+Z195 VRzo51LE[eY:;>5jFDJh[P0
+R3
+Z196 w1574064432
+Z197 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_datamem.v
+Z198 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_datamem.v
+L0 1
+R7
+r1
+31
+R8
+Z199 !s100 ZFCEhO2R^7fUAid2R@ZOM2
+Z200 !s108 1574177657.970000
+Z201 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_datamem.v|
+Z202 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_datamem.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsc_instmem
+Z203 I[jlQHNLPWOY12173X=XgZ3
+Z204 VkU`UIUgSeP=c3TJLN64XO2
+R3
+Z205 w1305084523
+Z206 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_instmen.v
+Z207 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_instmen.v
+L0 1
+R7
+r1
+31
+R8
+Z208 !s100 WKXIh;TPgW1o46MTQ=f0G0
+Z209 !s108 1574177658.098000
+Z210 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_instmen.v|
+Z211 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sc_instmen.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsevenseg
+Z212 IlS:zo[m:QLb1SWV]CVP[n0
+Z213 V<kz4<ET@H::]Aoef`6B9U3
+R3
+Z214 w1574047970
+Z215 8C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sevenseg.v
+Z216 FC:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sevenseg.v
+L0 1
+R7
+r1
+31
+R8
+Z217 !s100 IUKOXL21N_1;=3a]gFUl73
+Z218 !s108 1574177658.227000
+Z219 !s107 C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sevenseg.v|
+Z220 !s90 -reportprogress|300|-work|work|C:/Users/yangxuanhui/Documents/SJTU/shuzibujian/sc_computer/project/sevenseg.v|
+!i10b 1
+!s85 0
+!s101 -O0
