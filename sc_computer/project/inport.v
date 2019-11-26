@@ -9,5 +9,4 @@ module inport (sw4,sw3,sw2,sw1,sw0,out);
 	assign out[1] = sw1;
 	assign out[0] = sw0;
 	
-	
 endmodule

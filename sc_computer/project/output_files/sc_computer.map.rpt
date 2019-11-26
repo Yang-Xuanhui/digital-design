@@ -1,5 +1,5 @@
 Analysis & Synthesis report for sc_computer
-Tue Nov 19 23:59:03 2019
+Mon Nov 25 22:29:04 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -27,12 +27,12 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
  19. Parameter Settings for Inferred Entity Instance: outport:inst3|lpm_divide:Mod1
  20. Parameter Settings for Inferred Entity Instance: outport:inst3|lpm_divide:Div0
  21. Parameter Settings for Inferred Entity Instance: outport:inst3|lpm_divide:Mod0
- 22. Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod1
- 23. Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Div0
- 24. Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod0
- 25. Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Mod1
- 26. Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Div0
- 27. Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Mod0
+ 22. Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Mod1
+ 23. Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Div0
+ 24. Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Mod0
+ 25. Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod1
+ 26. Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Div0
+ 27. Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod0
  28. altsyncram Parameter Settings by Entity Instance
  29. Port Connectivity Checks: "sc_computer:inst|sc_cpu:cpu|mux4x32:nextpc"
  30. Port Connectivity Checks: "sc_computer:inst|sc_cpu:cpu|mux2x32:alu_a"
@@ -63,14 +63,14 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +---------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Nov 19 23:59:03 2019      ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 25 22:29:04 2019      ;
 ; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                   ; sc_computer                                ;
 ; Top-level Entity Name           ; computer                                   ;
 ; Family                          ; Cyclone V                                  ;
 ; Logic utilization (in ALMs)     ; N/A                                        ;
-; Total registers                 ; 1164                                       ;
-; Total pins                      ; 57                                         ;
+; Total registers                 ; 1131                                       ;
+; Total pins                      ; 58                                         ;
 ; Total virtual pins              ; 0                                          ;
 ; Total block memory bits         ; 3,072                                      ;
 ; Total DSP Blocks                ; 0                                          ;
@@ -241,25 +241,25 @@ applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 2732        ;
+; Estimate of Logic utilization (ALMs needed) ; 2711        ;
 ;                                             ;             ;
-; Combinational ALUT usage for logic          ; 4407        ;
-;     -- 7 input functions                    ; 54          ;
-;     -- 6 input functions                    ; 888         ;
-;     -- 5 input functions                    ; 222         ;
-;     -- 4 input functions                    ; 366         ;
-;     -- <=3 input functions                  ; 2877        ;
+; Combinational ALUT usage for logic          ; 4372        ;
+;     -- 7 input functions                    ; 41          ;
+;     -- 6 input functions                    ; 894         ;
+;     -- 5 input functions                    ; 221         ;
+;     -- 4 input functions                    ; 380         ;
+;     -- <=3 input functions                  ; 2836        ;
 ;                                             ;             ;
-; Dedicated logic registers                   ; 1164        ;
+; Dedicated logic registers                   ; 1131        ;
 ;                                             ;             ;
-; I/O pins                                    ; 57          ;
+; I/O pins                                    ; 58          ;
 ; Total MLAB memory bits                      ; 0           ;
 ; Total block memory bits                     ; 3072        ;
 ; Total DSP Blocks                            ; 0           ;
 ; Maximum fan-out node                        ; RESET~input ;
-; Maximum fan-out                             ; 1120        ;
-; Total fan-out                               ; 20827       ;
-; Average fan-out                             ; 3.62        ;
+; Maximum fan-out                             ; 1121        ;
+; Total fan-out                               ; 20635       ;
+; Average fan-out                             ; 3.63        ;
 +---------------------------------------------+-------------+
 
 
@@ -268,8 +268,8 @@ applicable agreement for further details.
 +-------------------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                            ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |computer                                       ; 4407 (0)          ; 1164 (0)     ; 3072              ; 0          ; 57   ; 0            ; |computer                                                                                                                      ; work         ;
-;    |clock:inst6|                                ; 48 (48)           ; 34 (34)      ; 0                 ; 0          ; 0    ; 0            ; |computer|clock:inst6                                                                                                          ; work         ;
+; |computer                                       ; 4372 (0)          ; 1131 (0)     ; 3072              ; 0          ; 58   ; 0            ; |computer                                                                                                                      ; work         ;
+;    |clock:inst6|                                ; 1 (1)             ; 1 (1)        ; 0                 ; 0          ; 0    ; 0            ; |computer|clock:inst6                                                                                                          ; work         ;
 ;    |outport:inst1|                              ; 946 (0)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|outport:inst1                                                                                                        ; work         ;
 ;       |lpm_divide:Div0|                         ; 313 (0)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|outport:inst1|lpm_divide:Div0                                                                                        ; work         ;
 ;          |lpm_divide_ibm:auto_generated|        ; 313 (0)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|outport:inst1|lpm_divide:Div0|lpm_divide_ibm:auto_generated                                                          ; work         ;
@@ -315,15 +315,15 @@ applicable agreement for further details.
 ;                |alt_u_div_mve:divider|          ; 317 (317)         ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|outport:inst3|lpm_divide:Mod1|lpm_divide_l3m:auto_generated|sign_div_unsign_olh:divider|alt_u_div_mve:divider        ; work         ;
 ;       |sevenseg:display_0|                      ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|outport:inst3|sevenseg:display_0                                                                                     ; work         ;
 ;       |sevenseg:display_1|                      ; 7 (7)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|outport:inst3|sevenseg:display_1                                                                                     ; work         ;
-;    |sc_computer:inst|                           ; 1521 (0)          ; 1130 (0)     ; 3072              ; 0          ; 0    ; 0            ; |computer|sc_computer:inst                                                                                                     ; work         ;
-;       |sc_cpu:cpu|                              ; 1503 (65)         ; 1024 (0)     ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu                                                                                          ; work         ;
-;          |alu:al_unit|                          ; 481 (481)         ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit                                                                              ; work         ;
+;    |sc_computer:inst|                           ; 1533 (0)          ; 1130 (0)     ; 3072              ; 0          ; 0    ; 0            ; |computer|sc_computer:inst                                                                                                     ; work         ;
+;       |sc_cpu:cpu|                              ; 1515 (65)         ; 1024 (0)     ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu                                                                                          ; work         ;
+;          |alu:al_unit|                          ; 480 (480)         ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit                                                                              ; work         ;
 ;          |dff32:ip|                             ; 29 (29)           ; 32 (32)      ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip                                                                                 ; work         ;
-;          |mux2x32:alu_a|                        ; 20 (20)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:alu_a                                                                            ; work         ;
+;          |mux2x32:alu_a|                        ; 19 (19)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:alu_a                                                                            ; work         ;
 ;          |mux2x32:alu_b|                        ; 33 (33)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:alu_b                                                                            ; work         ;
 ;          |mux2x32:link|                         ; 35 (35)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:link                                                                             ; work         ;
 ;          |mux4x32:nextpc|                       ; 32 (32)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|mux4x32:nextpc                                                                           ; work         ;
-;          |regfile:rf|                           ; 775 (775)         ; 992 (992)    ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|regfile:rf                                                                               ; work         ;
+;          |regfile:rf|                           ; 789 (789)         ; 992 (992)    ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|regfile:rf                                                                               ; work         ;
 ;          |sc_cu:cu|                             ; 33 (33)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_cpu:cpu|sc_cu:cu                                                                                 ; work         ;
 ;       |sc_datamem:dmem|                         ; 17 (3)            ; 106 (0)      ; 1024              ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_datamem:dmem                                                                                     ; work         ;
 ;          |io_input_reg:io_input_regx2|          ; 11 (0)            ; 10 (10)      ; 0                 ; 0          ; 0    ; 0            ; |computer|sc_computer:inst|sc_datamem:dmem|io_input_reg:io_input_regx2                                                         ; work         ;
@@ -391,8 +391,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1164  ;
-; Number of registers using Synchronous Clear  ; 32    ;
+; Total registers                              ; 1131  ;
+; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 1120  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -416,26 +416,26 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[17] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[16] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[18] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[13] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[14] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[13] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[11] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[12] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[9]  ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[10] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[9]  ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[8]  ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[31] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[20] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[29] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[30] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[25] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[26] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[27] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[25] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[28] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[23] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[24] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[21] ; 1       ;
-; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[22] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[27] ; 1       ;
 ; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[19] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[21] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[30] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[31] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[29] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[24] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[23] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[22] ; 1       ;
+; sc_computer:inst|sc_cpu:cpu|dff32:ip|q[20] ; 1       ;
 ; Total number of inverted registers = 30    ;         ;
 +--------------------------------------------+---------+
 
@@ -445,23 +445,23 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip|q[0]           ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip|q[28]          ;
-; 4:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; Yes        ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip|q[21]          ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip|q[1]           ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip|q[30]          ;
+; 4:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; Yes        ; |computer|sc_computer:inst|sc_cpu:cpu|dff32:ip|q[13]          ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|ShiftLeft0  ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|ShiftRight0 ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|ShiftLeft0  ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|ShiftRight0 ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|ShiftRight1 ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|ShiftLeft0  ;
-; 4:1                ; 27 bits   ; 54 LEs        ; 54 LEs               ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:link|y[19]      ;
+; 4:1                ; 27 bits   ; 54 LEs        ; 54 LEs               ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:link|y[22]      ;
 ; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|mux2x32:link|y[4]       ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|regfile:rf|qb[12]       ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|regfile:rf|qa[0]        ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|regfile:rf|qb[2]        ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|regfile:rf|qa[3]        ;
 ; 19:1               ; 7 bits    ; 84 LEs        ; 63 LEs               ; 21 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux23       ;
-; 20:1               ; 4 bits    ; 52 LEs        ; 40 LEs               ; 12 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux24       ;
-; 21:1               ; 3 bits    ; 42 LEs        ; 30 LEs               ; 12 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux28       ;
-; 17:1               ; 11 bits   ; 121 LEs       ; 99 LEs               ; 22 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux5        ;
-; 19:1               ; 3 bits    ; 36 LEs        ; 30 LEs               ; 6 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux3        ;
+; 20:1               ; 4 bits    ; 52 LEs        ; 40 LEs               ; 12 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux26       ;
+; 21:1               ; 3 bits    ; 42 LEs        ; 30 LEs               ; 12 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux30       ;
+; 17:1               ; 11 bits   ; 121 LEs       ; 99 LEs               ; 22 LEs                 ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux14       ;
+; 19:1               ; 3 bits    ; 36 LEs        ; 30 LEs               ; 6 LEs                  ; No         ; |computer|sc_computer:inst|sc_cpu:cpu|alu:al_unit|Mux2        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
 
 
@@ -675,75 +675,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod1 ;
-+------------------------+----------------+--------------------------------------+
-; Parameter Name         ; Value          ; Type                                 ;
-+------------------------+----------------+--------------------------------------+
-; LPM_WIDTHN             ; 32             ; Untyped                              ;
-; LPM_WIDTHD             ; 4              ; Untyped                              ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
-; LPM_PIPELINE           ; 0              ; Untyped                              ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
-; CBXI_PARAMETER         ; lpm_divide_l3m ; Untyped                              ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
-+------------------------+----------------+--------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Div0 ;
-+------------------------+----------------+--------------------------------------+
-; Parameter Name         ; Value          ; Type                                 ;
-+------------------------+----------------+--------------------------------------+
-; LPM_WIDTHN             ; 32             ; Untyped                              ;
-; LPM_WIDTHD             ; 4              ; Untyped                              ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
-; LPM_PIPELINE           ; 0              ; Untyped                              ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
-; CBXI_PARAMETER         ; lpm_divide_ibm ; Untyped                              ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
-+------------------------+----------------+--------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod0 ;
-+------------------------+----------------+--------------------------------------+
-; Parameter Name         ; Value          ; Type                                 ;
-+------------------------+----------------+--------------------------------------+
-; LPM_WIDTHN             ; 32             ; Untyped                              ;
-; LPM_WIDTHD             ; 4              ; Untyped                              ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
-; LPM_PIPELINE           ; 0              ; Untyped                              ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
-; CBXI_PARAMETER         ; lpm_divide_l3m ; Untyped                              ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
-+------------------------+----------------+--------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Mod1 ;
 +------------------------+----------------+--------------------------------------+
 ; Parameter Name         ; Value          ; Type                                 ;
@@ -791,6 +722,75 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +--------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: outport:inst1|lpm_divide:Mod0 ;
++------------------------+----------------+--------------------------------------+
+; Parameter Name         ; Value          ; Type                                 ;
++------------------------+----------------+--------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                              ;
+; LPM_WIDTHD             ; 4              ; Untyped                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
+; CBXI_PARAMETER         ; lpm_divide_l3m ; Untyped                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
++------------------------+----------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod1 ;
++------------------------+----------------+--------------------------------------+
+; Parameter Name         ; Value          ; Type                                 ;
++------------------------+----------------+--------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                              ;
+; LPM_WIDTHD             ; 4              ; Untyped                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
+; CBXI_PARAMETER         ; lpm_divide_l3m ; Untyped                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
++------------------------+----------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Div0 ;
++------------------------+----------------+--------------------------------------+
+; Parameter Name         ; Value          ; Type                                 ;
++------------------------+----------------+--------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                              ;
+; LPM_WIDTHD             ; 4              ; Untyped                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
+; CBXI_PARAMETER         ; lpm_divide_ibm ; Untyped                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
++------------------------+----------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: outport:inst2|lpm_divide:Mod0 ;
 +------------------------+----------------+--------------------------------------+
 ; Parameter Name         ; Value          ; Type                                 ;
 +------------------------+----------------+--------------------------------------+
@@ -866,7 +866,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:11     ;
+; Top            ; 00:00:15     ;
 +----------------+--------------+
 
 
@@ -876,7 +876,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue Nov 19 23:58:47 2019
+    Info: Processing started: Mon Nov 25 22:28:39 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sc_computer -c sc_computer
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file sevenseg.v
@@ -1025,6 +1025,7 @@ Info (10041): Inferred latch for "y[29]" at io_input_reg.v(30)
 Info (10041): Inferred latch for "y[30]" at io_input_reg.v(30)
 Info (10041): Inferred latch for "y[31]" at io_input_reg.v(30)
 Info (12128): Elaborating entity "clock" for hierarchy "clock:inst6"
+Warning (10036): Verilog HDL or VHDL warning at clock.v(7): object "counter_50M" assigned a value but never read
 Info (12128): Elaborating entity "inport" for hierarchy "inport:inst5"
 Info (12128): Elaborating entity "outport" for hierarchy "outport:inst3"
 Warning (10230): Verilog HDL assignment warning at outport.v(12): truncated value with size 32 to match size of target (4)
@@ -1034,12 +1035,12 @@ Info (278001): Inferred 9 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst3|Mod1"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst3|Div0"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst3|Mod0"
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst2|Mod1"
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst2|Div0"
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst2|Mod0"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst1|Mod1"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst1|Div0"
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst1|Mod0"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst2|Mod1"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst2|Div0"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "outport:inst2|Mod0"
 Info (12130): Elaborated megafunction instantiation "outport:inst3|lpm_divide:Mod1"
 Info (12133): Instantiated megafunction "outport:inst3|lpm_divide:Mod1" with the following parameter:
     Info (12134): Parameter "LPM_WIDTHN" = "32"
@@ -1061,27 +1062,27 @@ Info (12133): Instantiated megafunction "outport:inst3|lpm_divide:Div0" with the
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ibm.tdf
     Info (12023): Found entity 1: lpm_divide_ibm
 Warning (13012): Latch sc_computer:inst|sc_datamem:dmem|io_input_reg:io_input_regx2|io_input_mux:io_imput_mux2x32|y[0] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[7]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[5]
 Warning (13012): Latch sc_computer:inst|sc_datamem:dmem|io_input_reg:io_input_regx2|io_input_mux:io_imput_mux2x32|y[1] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[7]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[5]
 Warning (13012): Latch sc_computer:inst|sc_datamem:dmem|io_input_reg:io_input_regx2|io_input_mux:io_imput_mux2x32|y[2] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[7]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[5]
 Warning (13012): Latch sc_computer:inst|sc_datamem:dmem|io_input_reg:io_input_regx2|io_input_mux:io_imput_mux2x32|y[3] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[7]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[5]
 Warning (13012): Latch sc_computer:inst|sc_datamem:dmem|io_input_reg:io_input_regx2|io_input_mux:io_imput_mux2x32|y[4] has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[7]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal sc_computer:inst|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component|altsyncram_oqi1:auto_generated|q_a[5]
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 5658 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 5592 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
-    Info (21059): Implemented 45 output pins
-    Info (21061): Implemented 5537 logic cells
+    Info (21059): Implemented 46 output pins
+    Info (21061): Implemented 5470 logic cells
     Info (21064): Implemented 64 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 20 warnings
-    Info: Peak virtual memory: 4726 megabytes
-    Info: Processing ended: Tue Nov 19 23:59:03 2019
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:16
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 4722 megabytes
+    Info: Processing ended: Mon Nov 25 22:29:04 2019
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:20
 
 

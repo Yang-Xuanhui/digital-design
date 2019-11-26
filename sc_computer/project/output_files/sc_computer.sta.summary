@@ -3,147 +3,147 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'clock:inst6|clock_out'
-Slack : -16.235
-TNS   : -17501.075
-
-Type  : Slow 1100mV 85C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -12.590
-TNS   : -61.670
+Slack : -20.541
+TNS   : -21807.129
 
 Type  : Slow 1100mV 85C Model Setup 'CLOCK50'
-Slack : -4.112
-TNS   : -129.792
+Slack : -15.798
+TNS   : -2078.093
 
-Type  : Slow 1100mV 85C Model Hold 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -6.058
-TNS   : -29.982
-
-Type  : Slow 1100mV 85C Model Hold 'clock:inst6|clock_out'
-Slack : -5.769
-TNS   : -318.672
+Type  : Slow 1100mV 85C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -15.126
+TNS   : -75.365
 
 Type  : Slow 1100mV 85C Model Hold 'CLOCK50'
-Slack : -1.486
-TNS   : -1.486
+Slack : -6.343
+TNS   : -625.162
+
+Type  : Slow 1100mV 85C Model Hold 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -6.226
+TNS   : -29.600
+
+Type  : Slow 1100mV 85C Model Hold 'clock:inst6|clock_out'
+Slack : -2.864
+TNS   : -1000.074
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -4.188
-TNS   : -588.908
+Slack : -4.579
+TNS   : -749.197
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock:inst6|clock_out'
 Slack : -2.174
-TNS   : -776.641
+TNS   : -860.317
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK50'
-Slack : -0.652
-TNS   : -17.949
+Slack : -2.174
+TNS   : -321.544
 
 Type  : Slow 1100mV 0C Model Setup 'clock:inst6|clock_out'
-Slack : -16.401
-TNS   : -17649.542
-
-Type  : Slow 1100mV 0C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -12.609
-TNS   : -61.837
+Slack : -20.727
+TNS   : -21890.356
 
 Type  : Slow 1100mV 0C Model Setup 'CLOCK50'
-Slack : -4.547
-TNS   : -131.766
+Slack : -15.852
+TNS   : -2100.032
+
+Type  : Slow 1100mV 0C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -15.128
+TNS   : -75.376
 
 Type  : Slow 1100mV 0C Model Hold 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -6.173
-TNS   : -30.556
-
-Type  : Slow 1100mV 0C Model Hold 'clock:inst6|clock_out'
-Slack : -5.563
-TNS   : -295.320
+Slack : -6.279
+TNS   : -29.886
 
 Type  : Slow 1100mV 0C Model Hold 'CLOCK50'
-Slack : -1.382
-TNS   : -1.382
+Slack : -6.257
+TNS   : -614.531
+
+Type  : Slow 1100mV 0C Model Hold 'clock:inst6|clock_out'
+Slack : -2.887
+TNS   : -936.277
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -4.300
-TNS   : -614.000
+Slack : -4.568
+TNS   : -773.851
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock:inst6|clock_out'
 Slack : -2.174
-TNS   : -789.141
+TNS   : -834.916
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK50'
-Slack : -0.676
-TNS   : -20.214
+Slack : -2.174
+TNS   : -321.653
 
 Type  : Fast 1100mV 85C Model Setup 'clock:inst6|clock_out'
-Slack : -10.330
-TNS   : -10831.829
-
-Type  : Fast 1100mV 85C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -7.325
-TNS   : -35.566
+Slack : -12.964
+TNS   : -14090.358
 
 Type  : Fast 1100mV 85C Model Setup 'CLOCK50'
-Slack : -1.989
-TNS   : -57.828
+Slack : -11.152
+TNS   : -1439.570
+
+Type  : Fast 1100mV 85C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -9.759
+TNS   : -48.616
 
 Type  : Fast 1100mV 85C Model Hold 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -3.659
-TNS   : -18.146
-
-Type  : Fast 1100mV 85C Model Hold 'clock:inst6|clock_out'
-Slack : -3.075
-TNS   : -146.714
+Slack : -3.802
+TNS   : -17.975
 
 Type  : Fast 1100mV 85C Model Hold 'CLOCK50'
-Slack : -0.848
-TNS   : -0.848
+Slack : -3.420
+TNS   : -326.613
+
+Type  : Fast 1100mV 85C Model Hold 'clock:inst6|clock_out'
+Slack : -1.443
+TNS   : -503.800
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -2.481
-TNS   : -275.190
+Slack : -2.664
+TNS   : -354.675
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK50'
+Slack : -2.174
+TNS   : -316.942
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock:inst6|clock_out'
 Slack : -2.174
-TNS   : -174.647
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK50'
-Slack : -0.606
-TNS   : -3.376
+TNS   : -215.409
 
 Type  : Fast 1100mV 0C Model Setup 'clock:inst6|clock_out'
-Slack : -9.547
-TNS   : -10026.496
-
-Type  : Fast 1100mV 0C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -6.852
-TNS   : -33.307
+Slack : -12.078
+TNS   : -13144.507
 
 Type  : Fast 1100mV 0C Model Setup 'CLOCK50'
-Slack : -1.992
-TNS   : -53.150
+Slack : -10.358
+TNS   : -1340.294
+
+Type  : Fast 1100mV 0C Model Setup 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -9.219
+TNS   : -45.951
 
 Type  : Fast 1100mV 0C Model Hold 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -3.382
-TNS   : -16.766
-
-Type  : Fast 1100mV 0C Model Hold 'clock:inst6|clock_out'
-Slack : -2.911
-TNS   : -146.652
+Slack : -3.505
+TNS   : -16.641
 
 Type  : Fast 1100mV 0C Model Hold 'CLOCK50'
-Slack : -0.845
-TNS   : -0.845
+Slack : -3.386
+TNS   : -325.726
+
+Type  : Fast 1100mV 0C Model Hold 'clock:inst6|clock_out'
+Slack : -1.471
+TNS   : -580.372
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -2.410
+TNS   : -316.173
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK50'
+Slack : -2.174
+TNS   : -305.053
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock:inst6|clock_out'
 Slack : -2.174
-TNS   : -172.238
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sc_computer:inst|sc_cpu:cpu|regfile:rf|register[10][0]'
-Slack : -2.166
-TNS   : -243.937
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK50'
-Slack : -0.599
-TNS   : -3.430
+TNS   : -178.594
 
 ------------------------------------------------------------
